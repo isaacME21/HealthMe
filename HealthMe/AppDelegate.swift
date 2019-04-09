@@ -11,6 +11,7 @@ import CoreData
 import Firebase
 import FBSDKCoreKit
 import FBSDKLoginKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         db.settings = settings
         
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        IQKeyboardManager.shared.enable = true
         
         return true
     }
