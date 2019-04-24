@@ -9,7 +9,21 @@
 /* Begin PBXBuildFile section */
 		571819DB49F92FFF8776D7E1 /* Pods_HealthMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D863973602331469AC5683 /* Pods_HealthMe.framework */; };
 		7304BE7D225C3E9100623838 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BE7C225C3E9100623838 /* FoodCell.swift */; };
+		7304BE80225E7A7B00623838 /* HealthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BE7F225E7A7B00623838 /* HealthCell.swift */; };
+		730FA008226EA07000A606D1 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FA007226EA07000A606D1 /* ContainerVC.swift */; };
+		730FA00C226EA39E00A606D1 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FA00B226EA39E00A606D1 /* SideMenuVC.swift */; };
+		730FA01A226F6DDA00A606D1 /* PlanDeAlimentacion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FA019226F6DD900A606D1 /* PlanDeAlimentacion.storyboard */; };
+		730FA01F226F706F00A606D1 /* CitasNutriologo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FA01E226F706E00A606D1 /* CitasNutriologo.storyboard */; };
+		730FA022226F71F800A606D1 /* Social.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FA021226F71F800A606D1 /* Social.storyboard */; };
+		730FA025226F72C900A606D1 /* Health.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FA024226F72C800A606D1 /* Health.storyboard */; };
+		730FA028226F73D900A606D1 /* Achievements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FA027226F73D800A606D1 /* Achievements.storyboard */; };
+		730FA02B226F749300A606D1 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FA02A226F749300A606D1 /* Chat.storyboard */; };
+		730FA02E226F754B00A606D1 /* Avatar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FA02D226F754B00A606D1 /* Avatar.storyboard */; };
+		730FA031226F75E900A606D1 /* Config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FA030226F75E800A606D1 /* Config.storyboard */; };
+		7313F7A3226A8F4100C94042 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7313F7A2226A8F4100C94042 /* HealthKit.framework */; };
+		7313F7A6226A91B400C94042 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313F7A5226A91B300C94042 /* HealthKitManager.swift */; };
 		73516FF422248C7C00AD10F8 /* AddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73516FF322248C7C00AD10F8 /* AddEvent.swift */; };
+		7351C813225EA79800CF6572 /* HealthValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7351C812225EA79800CF6572 /* HealthValues.swift */; };
 		737D62B02242CBE200027BB5 /* GifUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D62AF2242CBE200027BB5 /* GifUIImageView.swift */; };
 		737D62B22242CD1700027BB5 /* pruebaGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 737D62B12242CD1600027BB5 /* pruebaGif.gif */; };
 		73853EDC223985E000ABF255 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73853EDB223985DF00ABF255 /* CustomCollectionViewCell.swift */; };
@@ -60,7 +74,22 @@
 		12CDDF1912D19467C71EAE64 /* Pods-HealthMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthMe/Pods-HealthMe.release.xcconfig"; sourceTree = "<group>"; };
 		4261AF3E3A22D0808619B62A /* Pods-HealthMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthMe/Pods-HealthMe.debug.xcconfig"; sourceTree = "<group>"; };
 		7304BE7C225C3E9100623838 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		7304BE7F225E7A7B00623838 /* HealthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCell.swift; sourceTree = "<group>"; };
+		730FA007226EA07000A606D1 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		730FA00B226EA39E00A606D1 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		730FA019226F6DD900A606D1 /* PlanDeAlimentacion.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PlanDeAlimentacion.storyboard; sourceTree = "<group>"; };
+		730FA01E226F706E00A606D1 /* CitasNutriologo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CitasNutriologo.storyboard; sourceTree = "<group>"; };
+		730FA021226F71F800A606D1 /* Social.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Social.storyboard; sourceTree = "<group>"; };
+		730FA024226F72C800A606D1 /* Health.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Health.storyboard; sourceTree = "<group>"; };
+		730FA027226F73D800A606D1 /* Achievements.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Achievements.storyboard; sourceTree = "<group>"; };
+		730FA02A226F749300A606D1 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		730FA02D226F754B00A606D1 /* Avatar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Avatar.storyboard; sourceTree = "<group>"; };
+		730FA030226F75E800A606D1 /* Config.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Config.storyboard; sourceTree = "<group>"; };
+		7313F7A2226A8F4100C94042 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		7313F7A4226A8F4100C94042 /* HealthMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthMe.entitlements; sourceTree = "<group>"; };
+		7313F7A5226A91B300C94042 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 		73516FF322248C7C00AD10F8 /* AddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEvent.swift; sourceTree = "<group>"; };
+		7351C812225EA79800CF6572 /* HealthValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthValues.swift; sourceTree = "<group>"; };
 		737D62AF2242CBE200027BB5 /* GifUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifUIImageView.swift; sourceTree = "<group>"; };
 		737D62B12242CD1600027BB5 /* pruebaGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pruebaGif.gif; sourceTree = "<group>"; };
 		73853EDB223985DF00ABF255 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -116,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				571819DB49F92FFF8776D7E1 /* Pods_HealthMe.framework in Frameworks */,
+				7313F7A3226A8F4100C94042 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +173,7 @@
 		73B1D815219279CC00AA08B2 /* HealthMe */ = {
 			isa = PBXGroup;
 			children = (
+				7313F7A4226A8F4100C94042 /* HealthMe.entitlements */,
 				73B1D816219279CC00AA08B2 /* AppDelegate.swift */,
 				73B1D82D21927D2900AA08B2 /* Model */,
 				73B1D82C21927D2600AA08B2 /* View */,
@@ -161,6 +192,8 @@
 			children = (
 				73B1D818219279CC00AA08B2 /* LogInVC.swift */,
 				73B1D83221935C6700AA08B2 /* DashBoardVC.swift */,
+				730FA007226EA07000A606D1 /* ContainerVC.swift */,
+				730FA00B226EA39E00A606D1 /* SideMenuVC.swift */,
 				73B7B91921ACABC800A3DD6C /* Configuracion */,
 				73B7B91821ACABC600A3DD6C /* Avatar */,
 				73B7B91621ACABBC00A3DD6C /* Chat */,
@@ -178,11 +211,16 @@
 			isa = PBXGroup;
 			children = (
 				73B1D81A219279CC00AA08B2 /* Main.storyboard */,
+				730FA019226F6DD900A606D1 /* PlanDeAlimentacion.storyboard */,
+				730FA01E226F706E00A606D1 /* CitasNutriologo.storyboard */,
+				730FA021226F71F800A606D1 /* Social.storyboard */,
+				730FA024226F72C800A606D1 /* Health.storyboard */,
+				730FA027226F73D800A606D1 /* Achievements.storyboard */,
+				730FA02A226F749300A606D1 /* Chat.storyboard */,
+				730FA02D226F754B00A606D1 /* Avatar.storyboard */,
+				730FA030226F75E800A606D1 /* Config.storyboard */,
 				73B1D822219279CE00AA08B2 /* LaunchScreen.storyboard */,
 				73B4B9BF21F68DE100856303 /* CustomCell */,
-				73F931D1222DA8E500525DE5 /* CustomTableViewCell.swift */,
-				73F931D2222DA8E500525DE5 /* CustomTableViewCell.xib */,
-				73853EDB223985DF00ABF255 /* CustomCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +237,9 @@
 				739715A02259590A0072B939 /* diasObj.swift */,
 				739715A22259591B0072B939 /* tiemposObj.swift */,
 				7304BE7C225C3E9100623838 /* FoodCell.swift */,
+				7304BE7F225E7A7B00623838 /* HealthCell.swift */,
+				7351C812225EA79800CF6572 /* HealthValues.swift */,
+				7313F7A5226A91B300C94042 /* HealthKitManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -206,6 +247,9 @@
 		73B4B9BF21F68DE100856303 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
+				73F931D1222DA8E500525DE5 /* CustomTableViewCell.swift */,
+				73F931D2222DA8E500525DE5 /* CustomTableViewCell.xib */,
+				73853EDB223985DF00ABF255 /* CustomCollectionViewCell.swift */,
 				73B4B9BA21F68DC200856303 /* CustomMessageCell.swift */,
 				73B4B9BB21F68DC300856303 /* MessageCell.xib */,
 				73B4B9C221F7AC5B00856303 /* SenderCustomCell.swift */,
@@ -301,6 +345,7 @@
 		9CE6DD93360323E37309C99A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7313F7A2226A8F4100C94042 /* HealthKit.framework */,
 				B3D863973602331469AC5683 /* Pods_HealthMe.framework */,
 			);
 			name = Frameworks;
@@ -356,6 +401,9 @@
 							com.apple.BackgroundModes = {
 								enabled = 0;
 							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
 							com.apple.Keychain = {
 								enabled = 0;
 							};
@@ -392,14 +440,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730FA02B226F749300A606D1 /* Chat.storyboard in Resources */,
 				73B1D824219279CE00AA08B2 /* LaunchScreen.storyboard in Resources */,
 				73F931D4222DA8E500525DE5 /* CustomTableViewCell.xib in Resources */,
 				73B4B9BE21F68DC300856303 /* MessageCell.xib in Resources */,
+				730FA02E226F754B00A606D1 /* Avatar.storyboard in Resources */,
+				730FA01F226F706F00A606D1 /* CitasNutriologo.storyboard in Resources */,
 				73B1D82F21934F2700AA08B2 /* GoogleService-Info.plist in Resources */,
 				73B1D821219279CE00AA08B2 /* Assets.xcassets in Resources */,
+				730FA025226F72C900A606D1 /* Health.storyboard in Resources */,
+				730FA028226F73D900A606D1 /* Achievements.storyboard in Resources */,
+				730FA01A226F6DDA00A606D1 /* PlanDeAlimentacion.storyboard in Resources */,
 				737D62B22242CD1700027BB5 /* pruebaGif.gif in Resources */,
 				73B1D81C219279CC00AA08B2 /* Main.storyboard in Resources */,
 				73B4B9C521F7AC5B00856303 /* SenderCell.xib in Resources */,
+				730FA031226F75E900A606D1 /* Config.storyboard in Resources */,
+				730FA022226F71F800A606D1 /* Social.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +570,7 @@
 				73B7B93D21ACC0D400A3DD6C /* Prueba3ViewController.swift in Sources */,
 				73B7B92C21ACAE9800A3DD6C /* DetalleVC.swift in Sources */,
 				73B1D83B21936D2400AA08B2 /* NutriologoVC.swift in Sources */,
+				7313F7A6226A91B400C94042 /* HealthKitManager.swift in Sources */,
 				73B4B9BD21F68DC300856303 /* CustomMessageCell.swift in Sources */,
 				73B1D819219279CC00AA08B2 /* LogInVC.swift in Sources */,
 				73B7B90A21ACAB2800A3DD6C /* AchievementsVC.swift in Sources */,
@@ -526,12 +583,16 @@
 				7397159F225934BF0072B939 /* MenuVC.swift in Sources */,
 				73516FF422248C7C00AD10F8 /* AddEvent.swift in Sources */,
 				739715A32259591B0072B939 /* tiemposObj.swift in Sources */,
+				7351C813225EA79800CF6572 /* HealthValues.swift in Sources */,
 				7304BE7D225C3E9100623838 /* FoodCell.swift in Sources */,
 				73853EDC223985E000ABF255 /* CustomCollectionViewCell.swift in Sources */,
 				73B1D83321935C6700AA08B2 /* DashBoardVC.swift in Sources */,
+				7304BE80225E7A7B00623838 /* HealthCell.swift in Sources */,
 				739715A12259590A0072B939 /* diasObj.swift in Sources */,
+				730FA00C226EA39E00A606D1 /* SideMenuVC.swift in Sources */,
 				73B7B93021ACB01200A3DD6C /* CaraVC.swift in Sources */,
 				73B7B93B21ACC0C700A3DD6C /* Prueba2ViewController.swift in Sources */,
+				730FA008226EA07000A606D1 /* ContainerVC.swift in Sources */,
 				73B7B91021ACAB8E00A3DD6C /* ConfiguracionVC.swift in Sources */,
 				73B1D81F219279CC00AA08B2 /* HealthMe.xcdatamodeld in Sources */,
 				73F931D8222E06FE00525DE5 /* RoundedImage.swift in Sources */,
@@ -683,6 +744,7 @@
 			baseConfigurationReference = 4261AF3E3A22D0808619B62A /* Pods-HealthMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthMe/HealthMe.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86V9YS97H9;
@@ -705,6 +767,7 @@
 			baseConfigurationReference = 12CDDF1912D19467C71EAE64 /* Pods-HealthMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthMe/HealthMe.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86V9YS97H9;

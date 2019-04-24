@@ -30,6 +30,10 @@ class PlanAlimentacionVC: UIViewController, UITableViewDelegate, UITableViewData
         loadMenus()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        loadMenus()
+    }
+    
     @IBAction func Salir(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
@@ -63,7 +67,7 @@ class PlanAlimentacionVC: UIViewController, UITableViewDelegate, UITableViewData
     
     func loadMenus(){
         menusTableview.removeAll()
-        db.collection("Test").getDocuments { (querySnapshot, err) in
+        db.collection("Pacientes").document(Auth.auth().currentUser!.email!).collection("Planes").getDocuments { (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents: \(err)")
             } else {

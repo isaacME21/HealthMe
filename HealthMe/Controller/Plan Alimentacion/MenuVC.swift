@@ -103,7 +103,7 @@ class MenuVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     //TODO: CARGAR PLAN DE ALIMENTACION
     func loadPlan(Plan : String){
         menuCompleto.removeAll()
-        db.collection("Test").document(Plan).getDocument { (document, error) in
+        db.collection("Pacientes").document(Auth.auth().currentUser!.email!).collection("Planes").document(Plan).getDocument { (document, error) in
             if let document = document, document.exists {
                 
                 var daysTemp = ""
