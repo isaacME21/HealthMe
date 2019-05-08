@@ -22,12 +22,17 @@
 		730FA031226F75E900A606D1 /* Config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FA030226F75E800A606D1 /* Config.storyboard */; };
 		7313F7A3226A8F4100C94042 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7313F7A2226A8F4100C94042 /* HealthKit.framework */; };
 		7313F7A6226A91B400C94042 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313F7A5226A91B300C94042 /* HealthKitManager.swift */; };
+		734C157B2280E5A00003165C /* ProfileMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C157A2280E5A00003165C /* ProfileMenuCell.swift */; };
 		73516FF422248C7C00AD10F8 /* AddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73516FF322248C7C00AD10F8 /* AddEvent.swift */; };
 		7351C813225EA79800CF6572 /* HealthValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7351C812225EA79800CF6572 /* HealthValues.swift */; };
+		736FE14F2278BE1900315780 /* Mujer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 736FE14D2278BE1300315780 /* Mujer.gif */; };
+		736FE1502278BE1900315780 /* Hombre.gif in Resources */ = {isa = PBXBuildFile; fileRef = 736FE14E2278BE1700315780 /* Hombre.gif */; };
 		737D62B02242CBE200027BB5 /* GifUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D62AF2242CBE200027BB5 /* GifUIImageView.swift */; };
 		737D62B22242CD1700027BB5 /* pruebaGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 737D62B12242CD1600027BB5 /* pruebaGif.gif */; };
 		73853EDC223985E000ABF255 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73853EDB223985DF00ABF255 /* CustomCollectionViewCell.swift */; };
 		738CD1AF21EFF7190096EC76 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738CD1AE21EFF7190096EC76 /* PostCell.swift */; };
+		73909C2622723AF900C91296 /* ImageNoir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73909C2522723AF900C91296 /* ImageNoir.swift */; };
+		73909C46227275EF00C91296 /* GraficasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73909C45227275EF00C91296 /* GraficasVC.swift */; };
 		7397159F225934BF0072B939 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7397159E225934BF0072B939 /* MenuVC.swift */; };
 		739715A12259590A0072B939 /* diasObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739715A02259590A0072B939 /* diasObj.swift */; };
 		739715A32259591B0072B939 /* tiemposObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739715A22259591B0072B939 /* tiemposObj.swift */; };
@@ -64,6 +69,8 @@
 		73B7B93B21ACC0C700A3DD6C /* Prueba2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7B93A21ACC0C700A3DD6C /* Prueba2ViewController.swift */; };
 		73B7B93D21ACC0D400A3DD6C /* Prueba3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7B93C21ACC0D400A3DD6C /* Prueba3ViewController.swift */; };
 		73B7B93F21ACC0E100A3DD6C /* Prueba4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7B93E21ACC0E100A3DD6C /* Prueba4ViewController.swift */; };
+		73EC05EC2274C144006022DA /* StardEndDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EC05EB2274C144006022DA /* StardEndDates.swift */; };
+		73EC05EE2274DBCD006022DA /* HealthChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EC05ED2274DBCD006022DA /* HealthChartVC.swift */; };
 		73F931D3222DA8E500525DE5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F931D1222DA8E500525DE5 /* CustomTableViewCell.swift */; };
 		73F931D4222DA8E500525DE5 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F931D2222DA8E500525DE5 /* CustomTableViewCell.xib */; };
 		73F931D6222DAF5700525DE5 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F931D5222DAF5700525DE5 /* CustomSegmentedControl.swift */; };
@@ -88,12 +95,17 @@
 		7313F7A2226A8F4100C94042 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		7313F7A4226A8F4100C94042 /* HealthMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthMe.entitlements; sourceTree = "<group>"; };
 		7313F7A5226A91B300C94042 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		734C157A2280E5A00003165C /* ProfileMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuCell.swift; sourceTree = "<group>"; };
 		73516FF322248C7C00AD10F8 /* AddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEvent.swift; sourceTree = "<group>"; };
 		7351C812225EA79800CF6572 /* HealthValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthValues.swift; sourceTree = "<group>"; };
+		736FE14D2278BE1300315780 /* Mujer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Mujer.gif; sourceTree = "<group>"; };
+		736FE14E2278BE1700315780 /* Hombre.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Hombre.gif; sourceTree = "<group>"; };
 		737D62AF2242CBE200027BB5 /* GifUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifUIImageView.swift; sourceTree = "<group>"; };
 		737D62B12242CD1600027BB5 /* pruebaGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pruebaGif.gif; sourceTree = "<group>"; };
 		73853EDB223985DF00ABF255 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		738CD1AE21EFF7190096EC76 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		73909C2522723AF900C91296 /* ImageNoir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNoir.swift; sourceTree = "<group>"; };
+		73909C45227275EF00C91296 /* GraficasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficasVC.swift; sourceTree = "<group>"; };
 		7397159E225934BF0072B939 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		739715A02259590A0072B939 /* diasObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diasObj.swift; sourceTree = "<group>"; };
 		739715A22259591B0072B939 /* tiemposObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiemposObj.swift; sourceTree = "<group>"; };
@@ -132,6 +144,8 @@
 		73B7B93A21ACC0C700A3DD6C /* Prueba2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba2ViewController.swift; sourceTree = "<group>"; };
 		73B7B93C21ACC0D400A3DD6C /* Prueba3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba3ViewController.swift; sourceTree = "<group>"; };
 		73B7B93E21ACC0E100A3DD6C /* Prueba4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba4ViewController.swift; sourceTree = "<group>"; };
+		73EC05EB2274C144006022DA /* StardEndDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardEndDates.swift; sourceTree = "<group>"; };
+		73EC05ED2274DBCD006022DA /* HealthChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthChartVC.swift; sourceTree = "<group>"; };
 		73F931D1222DA8E500525DE5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		73F931D2222DA8E500525DE5 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		73F931D5222DAF5700525DE5 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
@@ -183,6 +197,8 @@
 				73B1D81D219279CC00AA08B2 /* HealthMe.xcdatamodeld */,
 				73B1D82E21934F2600AA08B2 /* GoogleService-Info.plist */,
 				737D62B12242CD1600027BB5 /* pruebaGif.gif */,
+				736FE14E2278BE1700315780 /* Hombre.gif */,
+				736FE14D2278BE1300315780 /* Mujer.gif */,
 			);
 			path = HealthMe;
 			sourceTree = "<group>";
@@ -240,6 +256,9 @@
 				7304BE7F225E7A7B00623838 /* HealthCell.swift */,
 				7351C812225EA79800CF6572 /* HealthValues.swift */,
 				7313F7A5226A91B300C94042 /* HealthKitManager.swift */,
+				73909C2522723AF900C91296 /* ImageNoir.swift */,
+				73EC05EB2274C144006022DA /* StardEndDates.swift */,
+				734C157A2280E5A00003165C /* ProfileMenuCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,6 +308,8 @@
 			isa = PBXGroup;
 			children = (
 				73B7B90721ACAAE900A3DD6C /* HealthVC.swift */,
+				73909C45227275EF00C91296 /* GraficasVC.swift */,
+				73EC05ED2274DBCD006022DA /* HealthChartVC.swift */,
 			);
 			path = Health;
 			sourceTree = "<group>";
@@ -451,11 +472,13 @@
 				730FA025226F72C900A606D1 /* Health.storyboard in Resources */,
 				730FA028226F73D900A606D1 /* Achievements.storyboard in Resources */,
 				730FA01A226F6DDA00A606D1 /* PlanDeAlimentacion.storyboard in Resources */,
+				736FE14F2278BE1900315780 /* Mujer.gif in Resources */,
 				737D62B22242CD1700027BB5 /* pruebaGif.gif in Resources */,
 				73B1D81C219279CC00AA08B2 /* Main.storyboard in Resources */,
 				73B4B9C521F7AC5B00856303 /* SenderCell.xib in Resources */,
 				730FA031226F75E900A606D1 /* Config.storyboard in Resources */,
 				730FA022226F71F800A606D1 /* Social.storyboard in Resources */,
+				736FE1502278BE1900315780 /* Hombre.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +519,7 @@
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/CoreCharts/CoreCharts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKPlacesKit/FBSDKPlacesKit.framework",
@@ -523,6 +547,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreCharts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKPlacesKit.framework",
@@ -561,6 +586,7 @@
 				73B4B9C421F7AC5B00856303 /* SenderCustomCell.swift in Sources */,
 				73B1D83521936C8B00AA08B2 /* PlanAlimentacionVC.swift in Sources */,
 				73B7B90E21ACAB7C00A3DD6C /* AvatarVC.swift in Sources */,
+				73909C46227275EF00C91296 /* GraficasVC.swift in Sources */,
 				73B4B9C121F6A50600856303 /* Message.swift in Sources */,
 				737D62B02242CBE200027BB5 /* GifUIImageView.swift in Sources */,
 				73B7B90821ACAAE900A3DD6C /* HealthVC.swift in Sources */,
@@ -576,7 +602,9 @@
 				73B7B90A21ACAB2800A3DD6C /* AchievementsVC.swift in Sources */,
 				73B7B93221ACB04200A3DD6C /* CabelloVC.swift in Sources */,
 				738CD1AF21EFF7190096EC76 /* PostCell.swift in Sources */,
+				734C157B2280E5A00003165C /* ProfileMenuCell.swift in Sources */,
 				73B1D817219279CC00AA08B2 /* AppDelegate.swift in Sources */,
+				73EC05EE2274DBCD006022DA /* HealthChartVC.swift in Sources */,
 				73B7B92621ACAE0600A3DD6C /* FichaTecnicaVC.swift in Sources */,
 				73B7B93921ACC0A600A3DD6C /* PruebaViewController.swift in Sources */,
 				73B7B90C21ACAB5800A3DD6C /* ChatVC.swift in Sources */,
@@ -588,6 +616,8 @@
 				73853EDC223985E000ABF255 /* CustomCollectionViewCell.swift in Sources */,
 				73B1D83321935C6700AA08B2 /* DashBoardVC.swift in Sources */,
 				7304BE80225E7A7B00623838 /* HealthCell.swift in Sources */,
+				73EC05EC2274C144006022DA /* StardEndDates.swift in Sources */,
+				73909C2622723AF900C91296 /* ImageNoir.swift in Sources */,
 				739715A12259590A0072B939 /* diasObj.swift in Sources */,
 				730FA00C226EA39E00A606D1 /* SideMenuVC.swift in Sources */,
 				73B7B93021ACB01200A3DD6C /* CaraVC.swift in Sources */,

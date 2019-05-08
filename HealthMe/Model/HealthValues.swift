@@ -17,5 +17,7 @@ class HealthValues{
     var IMC : Double = 0.0
     var pGrasa : Double = 0.0
     var peso : Double = 0.0
+    var id : String = ""
+    var talla : Double = 0.0
 }
 

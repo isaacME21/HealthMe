@@ -13,6 +13,7 @@ class CustomSegmentedControl: UIControl {
     var buttons = [UIButton]()
     var selector : UIView!
     var selectedSegmentIndex = 0
+    let azul = UIColor(red: 54/255, green: 162/255, blue: 235/255, alpha: 1.0)
     
     @IBInspectable
     var borderWidth : CGFloat = 0 {
@@ -51,7 +52,7 @@ class CustomSegmentedControl: UIControl {
     }
     
     @IBInspectable
-    var selectorTextColor : UIColor = .green{
+    var selectorTextColor : UIColor = UIColor(red: 54/255, green: 162/255, blue: 235/255, alpha: 1.0){
         didSet{
             updateView()
         }

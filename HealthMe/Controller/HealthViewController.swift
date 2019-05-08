@@ -1,5 +1,5 @@
 //
-//  DetalleVC.swift
+//  HealthViewController.swift
 //  HealthMe
 //
 //  Created by Luis Isaac Maya on 11/26/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetalleVC: UIViewController {
+class HealthVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

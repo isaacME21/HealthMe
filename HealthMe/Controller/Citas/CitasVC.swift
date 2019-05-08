@@ -56,14 +56,14 @@ class CitasVC: UIViewController,UITableViewDelegate, UITableViewDataSource{
         
     }
     
-    // Mark: - Table view delegate
+    //Mark: SwipeAction en la derecha
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let delete = deleteAction(at: indexPath)
         return UISwipeActionsConfiguration(actions: [delete])
     }
     
     
-    //Mark: SwipeAction en la derecha
+    
     func deleteAction(at indexPath: IndexPath) -> UIContextualAction{
         let action = UIContextualAction(style: .destructive, title: "delete") { (action, view, completion) in
             self.borrarCita(id: self.citas[indexPath.row].id!)
