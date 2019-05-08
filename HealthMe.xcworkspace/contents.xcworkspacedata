@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HealthMe.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:HealthMe"
+      name = "HealthMe">
+      <FileRef
+         location = "group:HealthMe/HealthMe.entitlements">
+      </FileRef>
+      <FileRef
+         location = "group:HealthMe/AppDelegate.swift">
+      </FileRef>
+      <Group
+         location = "group:HealthMe/Model"
+         name = "Model">
+         <FileRef
+            location = "group:HealthMe/Model/PostCell.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HealthMe/Model/Message.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HealthMe/Model/AddEvent.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HealthMe/Model/CustomSegmentedControl.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HealthMe/Model/RoundedImage.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:HealthMe/View"
+         name = "View">
+         <Group
+            location = "group:HealthMe/View"
+            name = "Main.storyboard">
+            <FileRef
+               location = "group:HealthMe/View/Base.lproj/Main.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/View"
+            name = "LaunchScreen.storyboard">
+            <FileRef
+               location = "group:HealthMe/View/Base.lproj/LaunchScreen.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/View/CustomCell"
+            name = "CustomCell">
+            <FileRef
+               location = "group:HealthMe/View/CustomCell/CustomMessageCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/View/CustomCell/MessageCell.xib">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/View/CustomCell/SenderCustomCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/View/CustomCell/SenderCell.xib">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:HealthMe/View/CustomTableViewCell.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HealthMe/View/CustomTableViewCell.xib">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:HealthMe/Controller"
+         name = "Controller">
+         <FileRef
+            location = "group:HealthMe/Controller/LogInVC.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HealthMe/Controller/RegistroVC.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HealthMe/Controller/DashBoardVC.swift">
+         </FileRef>
+         <Group
+            location = "group:HealthMe/Controller/Configuracion"
+            name = "Configuracion">
+            <FileRef
+               location = "group:HealthMe/Controller/Configuracion/ConfiguracionVC.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/Controller/Avatar"
+            name = "Avatar">
+            <FileRef
+               location = "group:HealthMe/Controller/Avatar/AvatarVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Avatar/ConfigAvatarVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Avatar/CaraVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Avatar/CabelloVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Avatar/PlayeraVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Avatar/PantalonVC.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/Controller/Chat"
+            name = "Chat">
+            <FileRef
+               location = "group:HealthMe/Controller/Chat/ChatVC.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/Controller/Achievements"
+            name = "Achievements">
+            <FileRef
+               location = "group:HealthMe/Controller/Achievements/AchievementsVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Achievements/DetalleVC.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/Controller/Health"
+            name = "Health">
+            <FileRef
+               location = "group:HealthMe/Controller/Health/HealthVC.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/Controller/Social"
+            name = "Social">
+            <FileRef
+               location = "group:HealthMe/Controller/Social/SocialVC.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/Controller/Nutriologo"
+            name = "Nutriologo">
+            <FileRef
+               location = "group:HealthMe/Controller/Nutriologo/NutriologoVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Nutriologo/CitasVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Nutriologo/FichaTecnicaVC.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/Controller/Plan Alimentacion"
+            name = "Plan Alimentacion">
+            <FileRef
+               location = "group:HealthMe/Controller/Plan Alimentacion/PlanAlimentacionVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Plan Alimentacion/MesVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Plan Alimentacion/EquivalentesVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Plan Alimentacion/ListaVC.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Plan Alimentacion/EquivalenteVC.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:HealthMe/Controller/Prueba"
+            name = "Prueba">
+            <FileRef
+               location = "group:HealthMe/Controller/Prueba/PruebaViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Prueba/Prueba2ViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Prueba/Prueba3ViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HealthMe/Controller/Prueba/Prueba4ViewController.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:HealthMe/Assets.xcassets">
+      </FileRef>
+      <FileRef
+         location = "group:HealthMe/Info.plist">
+      </FileRef>
+      <Group
+         location = "group:HealthMe/HealthMe.xcdatamodeld"
+         name = "HealthMe.xcdatamodeld">
+         <FileRef
+            location = "group:HealthMe/HealthMe.xcdatamodeld/HealthMe.xcdatamodel">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:HealthMe/GoogleService-Info.plist">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
